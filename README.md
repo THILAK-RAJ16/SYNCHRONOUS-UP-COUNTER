@@ -26,6 +26,10 @@ Since the first (LSB) flip-flop needs to toggle at every clock pulse, its J and 
 The next flip-flop need only “recognize” that the first flip-flop’s Q output is high to be made ready to toggle, so no AND gate is needed.
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
+**Truth Table**
+
+![WhatsApp Image 2024-12-20 at 13 54 26_8af3d29c](https://github.com/user-attachments/assets/e5b59875-88b8-46c6-aae6-4759d802f62b)
+
 **Procedure**
 1. Type the program in Quartus software.
 2. Compile and run the program.
@@ -36,6 +40,20 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 **PROGRAM**
 
 Program for flipflops and verify its truth table in quartus using Verilog programming. 
+
+```
+module sn(out,clk,rst);
+input clk,rst;
+output reg [3:0]out;
+always @ (posedge clk)
+begin
+   if(rst)
+     out<=0;
+   else 
+     out <= out+1;
+end
+endmodule
+```
 
 Developed by: Thilak Raj .P
 
