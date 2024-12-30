@@ -66,6 +66,6 @@ RegisterNumber:24900585
 **TIMING DIAGRAM FOR IP COUNTER**
 ![image](https://github.com/user-attachments/assets/790a404e-93f5-4d3c-b2bc-a7c1bfd652af)
 
-**RESULTS**
+**RESULT**
 
 4 bit synchronous up counter is implemented and functionality is validated.
