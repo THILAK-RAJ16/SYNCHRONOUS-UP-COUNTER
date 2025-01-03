@@ -63,7 +63,7 @@ RegisterNumber:24900585
 ![image](https://github.com/user-attachments/assets/f6db7442-b36a-4d07-a461-722f00b3ad25)
 
 
-**TIMING DIAGRAM FOR IP COUNTER**
+**TIMING DIAGRAM FOR UP COUNTER**
 ![image](https://github.com/user-attachments/assets/790a404e-93f5-4d3c-b2bc-a7c1bfd652af)
 
 **RESULT**
